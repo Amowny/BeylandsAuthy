@@ -23,6 +23,8 @@ Here're some of the project's best features:
 
 Technologies used in the project:
 
+Java and ❤
+
 <h2>🛡️ License:</h2>
 
 This project is licensed under the MIT License for BeyLands ©2023
