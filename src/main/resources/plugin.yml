@@ -1,0 +1,8 @@
+name: BeylandsAuthy
+version: '${project.version}'
+main: works.emregumus.beylandsauthy.BeylandsAuthy
+api-version: 1.19
+commands:
+  beyauthy:
+    description: BeylandsAuthy Komutu
+    permission: beylandsauthy.command

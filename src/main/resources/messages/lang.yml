@@ -1,0 +1,50 @@
+messages:
+  2ad_etkin_degil: "<gray>2 Aşamalı Doğrulama Etkin Değil."
+  2ad_etkin_degil_iki: "<gray>Sunucudan ayrılmadan önce 2 aşamalı doğrulama etkinleştirici kodu almak hesabının güvenliğini sağlar."
+  2ad_kodunuzu_girin: "<red>2 Aşamalı Doğrulama Etkin. Lütfen kodunuzu giriniz."
+  2ad_once_kodunuzu_girin: "<gray>Lütfen önce doğrulama kodunuzu giriniz!"
+  2ad_kodunuz_dogrulanamadi: "<red>2 Aşamalı Doğrulama Kodunuz Doğrulanamadı."
+  2ad_kodunuz_dogrulanamadi_sadecerakam: "<red>2 Aşamalı Doğrulama Kodunuz Doğrulanamadı. Lütfen Sadece Rakam Yazarak Tekrar Deneyiniz."
+  2ad_kodunuz_dogrulandi: "<green>2 Aşamalı Doğrulama Kodunuz Doğrulandı."
+  command:
+    perm:
+      basarisiz: "<red>Yetersiz Yetki."
+    reload:
+      basarili: "<green>Yeniden Yükleme Başarılı <white>{time}<green>ms Sürdü."
+      basarisiz: "<red>Yeniden Yükleme Başarısız."
+    bagla:
+      qr:
+        basarili: "<aqua>2 Aşamalı Doğrulama Etkinleştirici QR Kodun: <click:open_url:{qr-link}><hover:show_text:'<gray>Google Authenticator Uygulamasında Bu QR Kodu Okut'><color:#00ff00><bold>TIKLA</color></hover></click>"
+        basarisiz: "<red>Zaten önceden 2 aşamalı doğrulama etkinleştirici qr kodu almışsın.Kodunu unuttuysan bilet açıp yardım alabilirsin."
+      kod:
+        basarili: "<aqua>2 Aşamalı Doğrulama Etkinleştirici Kodun: <click:copy_to_clipboard:{auth-code}><hover:show_text:'<gray>Kodu Kopyalamak İçin Tıkla<newline>Google Authenticator Uygulamasında Bu Kodu Yaz'></hover></click>"
+        basarisiz: "<red>Zaten önceden 2 aşamalı doğrulama etkinleştirici kodu almışsın.Kodunu unuttuysan bilet açıp yardım alabilirsin."
+    kaldir:
+      basarili: "<green>2 Aşamalı Doğrulama Başarıyla Kaldırıldı."
+      basarisiz: "<red>2 Aşamalı Doğrulama Zaten Etkin Değil."
+    admin:
+      bagla:
+        qr:
+          oyuncu:
+            basarili: "<aqua>2 Aşamalı Doğrulaman Yetkili Tarafından Etkinleştirildi QR Kodun: <click:open_url:{qr-link}><hover:show_text:'<gray>Google Authenticator Uygulamasında Bu QR Kodu Okut'><color:#00ff00><bold>TIKLA</color></hover></click>"
+            basarisiz: "<red>Zaten önceden 2 aşamalı doğrulama etkinleştirici qr kodu almışsın.Kodunu unuttuysan bilet açıp yardım alabilirsin."
+          admin:
+            basarili: "<aqua>Oyuncunun 2 Aşamalı Doğrulama  Etkinleştirici QR Kodu: <click:open_url:{qr-link}><hover:show_text:'<gray>Google Authenticator Uygulamasında Bu QR Kodu Okut'><color:#00ff00><bold>TIKLA</color></hover></click>"
+            basarisiz: "<red>Oyuncu Zaten önceden 2 aşamalı doğrulama etkinleştirici qr kodu almış."
+        kod:
+          oyuncu:
+            basarili: "<aqua>2 Aşamalı Doğrulaman Yetkili Tarafından Etkinleştirildi Etkinleştirici Kodun: <click:copy_to_clipboard:{auth-code}><hover:show_text:'<gray>Kodu Kopyalamak İçin Tıkla<newline>Google Authenticator Uygulamasında Bu Kodu Yaz'></hover></click>"
+            basarisiz: "<red>Zaten önceden 2 aşamalı doğrulama etkinleştirici kodu almışsın.Kodunu unuttuysan bilet açıp yardım alabilirsin."
+          admin:
+            basarili: "<aqua>Oyuncunun 2 Aşamalı Doğrulama Etkinleştirici Kodu: <click:copy_to_clipboard:{auth-code}><hover:show_text:'<gray>Kodu Kopyalamak İçin Tıkla<newline>Google Authenticator Uygulamasında Bu Kodu Yaz'></hover></click>"
+            basarisiz: "<red>Oyuncu Zaten önceden 2 aşamalı doğrulama etkinleştirici kodu almış."
+      kaldir:
+        oyuncu:
+          basarili: "<green>2 Aşamalı Doğrulaman Yetkili Tarafından Başarıyla Kaldırıldı."
+          basarisiz: "<red>2 Aşamalı Doğrulaman Yetkili Tarafından Etkin Olmadığı İçin Kaldırılamadı."
+        admin:
+          basarili: "<green>Oyuncunun 2 Aşamalı Doğrulaması Başarıyla Kaldırıldı."
+          basarisiz: "<red>Oyuncunun 2 Aşamalı Doğrulaması Zaten Etkin Değil."
+
+options:
+  prefix: "<dark_gray>[<gold>BeylandsAuthy<dark_gray>] "
